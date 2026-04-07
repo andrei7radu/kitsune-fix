@@ -1,1 +1,6 @@
-
+id=kitsune_307_fix
+name=Kitsune 30.7 Mismatch Fix
+version=v1.0
+versionCode=1
+author=Me
+description=Fixes the Failed to stat error and silent IPC bridge drops for Kitsune 30.7.
