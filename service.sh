@@ -9,7 +9,7 @@ done
     PKG="io.github.x0eg0.magisk"
     cooldown=0
 
-    logcat -v brief -e "ActivityManager: Killing.*$PKG|Failed to stat.*io.github.huskydg.magisk" | while read -r line; do
+     logcat -v brief -e "Failed to stat.*io.github.huskydg.magisk" | while read -r line; do
         
         if [ "$cooldown" -eq 1 ]; then continue; fi
         cooldown=1
