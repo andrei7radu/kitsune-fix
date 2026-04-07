@@ -1,6 +1,6 @@
-id=kitsune_307_fix
-name=Kitsune 30.7 Mismatch Fix
+id=kitsune-mismatch-fix
+name=Kitsune Mask IPC Bridge Fix
 version=v1.0
 versionCode=1
-author=Me
-description=Fixes the Failed to stat error and silent IPC bridge drops for Kitsune 30.7.
+author=andrei7radu
+description=Fixes the "Failed to stat io.github.huskydg.magisk" IPC Bridge crash in Kitsune 30.7 by dynamically symlinking the new x0eg0 package paths during early boot.
